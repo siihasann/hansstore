@@ -36,13 +36,11 @@
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie",
 
-        
+
 
         "DB_CONNECTION": "pgsql",
-        "DATABASE_URL": "postgresql://postgres.nxualfcbfpboaeoksbdg:ZxavIW30G6YgwP0c@aws-0-ap-southeast-1.pooler.supabase.com:6543/postgres",
+        "DATABASE_URL": "postgresql://postgres.nxualfcbfpboaeoksbdg:ZxavIW30G6YgwP0c@aws-0-ap-southeast-1.pooler.supabase.com:6543/postgres"
 
-        "MIDTRANS_SERVER_KEY": "@midtrans-server-key",
-        "MIDTRANS_CLIENT_KEY": "@midtrans-client-key"
-
+        
     }
 }
