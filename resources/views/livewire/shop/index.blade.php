@@ -49,17 +49,11 @@
         </div>
 
         <!-- Pagination (Optional) -->
-        <div class="flex justify-center mt-8">
+        <div class="flex justify-center mt-8 mb-8">
             <nav class="inline-flex rounded-md shadow-sm">
                 {{ $products->links('pagination::tailwind') }}
             </nav>
         </div>
     </main>
-
-    <!-- Footer -->
-    <footer class="bg-gray-800 text-white py-6 mt-8">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <p class="text-center text-sm">&copy; 2024 ShopMaster. All rights reserved.</p>
-        </div>
-    </footer>
+    @livewire('component-footer')
 </div>

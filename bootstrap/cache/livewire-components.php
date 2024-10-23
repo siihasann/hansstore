@@ -1,6 +1,7 @@
 <?php return array (
   'admin.dashboard' => 'App\\Http\\Livewire\\Admin\\Dashboard',
   'admin.user' => 'App\\Http\\Livewire\\Admin\\User',
+  'component-footer' => 'App\\Http\\Livewire\\ComponentFooter',
   'counter' => 'App\\Http\\Livewire\\Counter',
   'product.create' => 'App\\Http\\Livewire\\Product\\Create',
   'product.index' => 'App\\Http\\Livewire\\Product\\Index',
